@@ -18,7 +18,7 @@ class circle():
 		for i in range(0, 130):
 		#for top zero
 			top = Twist()
-			rospy.loginfo("Top zero initiated")
+			rospy.loginfo("Circle initiated BOSS")
 			top.linear.x = 0.2
 			top.linear.y = 0.0
 			top.linear.z = 0.00
@@ -31,10 +31,8 @@ class circle():
 			rospy.loginfo("circle shape completed Bro!")
 			top.linear.x = 0.0
 			top.angular.z= 0.0
-			bottom.linear.x = 0.0
-			bottom.angular.z = 0.0
 			self.vel.publish(top)
-			self.vel.publish(bottom)
+			
 			rate.sleep()
 
 
