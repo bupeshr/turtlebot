@@ -30,6 +30,17 @@ $ sudo apt install ros-noetic-dynamixel-sdk
 $ sudo apt install ros-noetic-turtlebot3-msgs
 $ sudo apt install ros-noetic-turtlebot3
 ```
+Select turtlebot you wish to work with
+=======================================
+
+1.For using **Waffle pi** use
+```
+$ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
+```
+2.For using **Burger**
+```
+$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+```
 Build the pkg by
 
 ```
