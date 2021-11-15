@@ -1,6 +1,6 @@
 ## Turtlebot3 Motion in Gazebo
 
-I worked out with Turtlebot3 waffle
+I worked out with Turtlebot3 Waffle Pi
 
 **OS:** Ubuntu 20.04 LTS
 
